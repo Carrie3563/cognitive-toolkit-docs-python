@@ -48,6 +48,7 @@ test: off
 on_finish:
     - "%PYTHON%/python.exe -m pip install %WHLPATH%"
     - ps: Copy-Item c:/projects/cognitive-toolkit-docs-python/ci_scripts/conf.py -Destination c:/projects/cntk/bindings/python/doc/conf.py -force
+    - ps: Copy-Item c:/projects/cognitive-toolkit-docs-python/ci_scripts/build.bat -Destination c:/projects/cntk/bindings/python/doc/build.bat -force
 
     # generate rst files and build
     - echo %PATH%
