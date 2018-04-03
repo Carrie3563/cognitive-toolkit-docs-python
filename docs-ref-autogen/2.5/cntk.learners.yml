@@ -902,14 +902,14 @@ items:
   summary: "Create a momentum schedule in a minibatch-size agnostic way\n(using the\
     \ same semantics as @cntk.learners.training_parameter_schedule\nwith *unit=UnitType.sample*).\n\
     \nDeprecated:: 2.2\n   This is for legacy API.\n   In this legacy API,:\n\n  \
-    \ <!-- literal_block {\"names\": [], \"xml:space\": \"preserve\", \"backrefs\"\
-    : [], \"classes\": [], \"ids\": [], \"dupnames\": []} -->\n\n   ````\n\n     \
-    \ #assume the desired minibatch size invariant constant momentum rate is: momentum_rate\n\
+    \ <!-- literal_block {\"xml:space\": \"preserve\", \"dupnames\": [], \"classes\"\
+    : [], \"backrefs\": [], \"names\": [], \"ids\": []} -->\n\n   ````\n\n      #assume\
+    \ the desired minibatch size invariant constant momentum rate is: momentum_rate\n\
     \      momentum_time_constant = -minibatch_size/np.log(momentum_rate)\n      momentum\
     \ = momentum_as_time_constant_schedule(momentum_time_constant)\n      ````\n\n\
-    \   The equivalent code in the latest API,\n\n   <!-- literal_block {\"names\"\
-    : [], \"xml:space\": \"preserve\", \"backrefs\": [], \"classes\": [], \"ids\"\
-    : [], \"dupnames\": []} -->\n\n   ````\n\n      momentum = momentum_schedule(momentum_rate,\
+    \   The equivalent code in the latest API,\n\n   <!-- literal_block {\"xml:space\"\
+    : \"preserve\", \"dupnames\": [], \"classes\": [], \"backrefs\": [], \"names\"\
+    : [], \"ids\": []} -->\n\n   ````\n\n      momentum = momentum_schedule(momentum_rate,\
     \ minibatch_size = minibatch_size)\n      ````\n\nCNTK specifies momentum in a\
     \ minibatch-size agnostic way as the time\nconstant (in samples) of a unit-gain\
     \ 1st-order IIR filter. The value\nspecifies the number of samples after which\
