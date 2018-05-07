@@ -52,8 +52,7 @@ items:
     '
   syntax:
     content: output_shape()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.contrib.deeprl.agent.shared.preprocessing.SlidingWindow.output_shape
 - class: cntk.contrib.deeprl.agent.shared.preprocessing.SlidingWindow
@@ -76,7 +75,6 @@ items:
   syntax:
     content: preprocess(x)
     parameters:
-    - id: self
     - id: x
   type: method
   uid: cntk.contrib.deeprl.agent.shared.preprocessing.SlidingWindow.preprocess
@@ -99,8 +97,7 @@ items:
     '
   syntax:
     content: reset()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.contrib.deeprl.agent.shared.preprocessing.SlidingWindow.reset
 references:

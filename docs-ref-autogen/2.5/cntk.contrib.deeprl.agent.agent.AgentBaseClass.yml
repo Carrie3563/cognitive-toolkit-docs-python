@@ -96,8 +96,7 @@ items:
     '
   syntax:
     content: enter_evaluation()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.contrib.deeprl.agent.agent.AgentBaseClass.enter_evaluation
 - class: cntk.contrib.deeprl.agent.agent.AgentBaseClass
@@ -153,8 +152,7 @@ items:
     '
   syntax:
     content: exit_evaluation()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.contrib.deeprl.agent.agent.AgentBaseClass.exit_evaluation
 - class: cntk.contrib.deeprl.agent.agent.AgentBaseClass
@@ -177,7 +175,6 @@ items:
   syntax:
     content: save(filename)
     parameters:
-    - id: self
     - id: filename
   type: method
   uid: cntk.contrib.deeprl.agent.agent.AgentBaseClass.save
@@ -201,7 +198,6 @@ items:
   syntax:
     content: save_parameter_settings(filename)
     parameters:
-    - id: self
     - id: filename
   type: method
   uid: cntk.contrib.deeprl.agent.agent.AgentBaseClass.save_parameter_settings
@@ -224,8 +220,7 @@ items:
     '
   syntax:
     content: set_as_best_model()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.contrib.deeprl.agent.agent.AgentBaseClass.set_as_best_model
 - class: cntk.contrib.deeprl.agent.agent.AgentBaseClass

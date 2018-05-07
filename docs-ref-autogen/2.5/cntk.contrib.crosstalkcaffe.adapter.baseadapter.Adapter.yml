@@ -47,7 +47,6 @@ items:
   syntax:
     content: load_model(global_conf)
     parameters:
-    - id: self
     - id: global_conf
   type: method
   uid: cntk.contrib.crosstalkcaffe.adapter.baseadapter.Adapter.load_model

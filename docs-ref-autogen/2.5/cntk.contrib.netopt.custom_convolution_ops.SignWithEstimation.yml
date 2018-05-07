@@ -58,7 +58,6 @@ items:
   syntax:
     content: backward(state, root_gradients)
     parameters:
-    - id: self
     - id: state
     - id: root_gradients
   type: method
@@ -80,7 +79,6 @@ items:
   syntax:
     content: forward(argument, device, outputs_to_retain)
     parameters:
-    - id: self
     - id: argument
     - id: device
     - id: outputs_to_retain
@@ -103,7 +101,6 @@ items:
   syntax:
     content: gradFunc(arg)
     parameters:
-    - id: self
     - id: arg
   type: method
   uid: cntk.contrib.netopt.custom_convolution_ops.SignWithEstimation.gradFunc
@@ -123,8 +120,7 @@ items:
     startLine: 68
   syntax:
     content: infer_outputs()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.contrib.netopt.custom_convolution_ops.SignWithEstimation.infer_outputs
 - class: cntk.contrib.netopt.custom_convolution_ops.SignWithEstimation
@@ -144,7 +140,6 @@ items:
   syntax:
     content: signFunc(arg)
     parameters:
-    - id: self
     - id: arg
   type: method
   uid: cntk.contrib.netopt.custom_convolution_ops.SignWithEstimation.signFunc

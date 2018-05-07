@@ -82,8 +82,7 @@ items:
     '
   syntax:
     content: load_all_params()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.contrib.crosstalk.crosstalk_cntk.CNTKCrosstalk.load_all_params
 - class: cntk.contrib.crosstalk.crosstalk_cntk.CNTKCrosstalk
@@ -105,8 +104,7 @@ items:
     '
   syntax:
     content: save_all_params()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.contrib.crosstalk.crosstalk_cntk.CNTKCrosstalk.save_all_params
 - class: cntk.contrib.crosstalk.crosstalk_cntk.CNTKCrosstalk

@@ -263,8 +263,7 @@ items:
     '
   syntax:
     content: print_node_timing()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.train.trainer.Trainer.print_node_timing
 - class: cntk.train.trainer.Trainer
@@ -361,8 +360,7 @@ items:
     '
   syntax:
     content: summarize_test_progress()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.train.trainer.Trainer.summarize_test_progress
 - class: cntk.train.trainer.Trainer
@@ -387,8 +385,7 @@ items:
     '
   syntax:
     content: summarize_training_progress()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.train.trainer.Trainer.summarize_training_progress
 - class: cntk.train.trainer.Trainer
@@ -411,7 +408,6 @@ items:
   syntax:
     content: test_minibatch(arguments, device=None)
     parameters:
-    - id: self
     - id: arguments
     - defaultValue: None
       id: device
@@ -466,7 +462,6 @@ items:
   syntax:
     content: train_minibatch(arguments, outputs=None, device=None, is_sweep_end=None)
     parameters:
-    - id: self
     - id: arguments
     - defaultValue: None
       id: outputs

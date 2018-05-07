@@ -226,8 +226,7 @@ items:
     '
   syntax:
     content: get_checkpoint_state()
-    parameters:
-    - id: self
+    parameters: []
     return:
       description: 'A dict that has the checkpoint state of the MinibatchSource
 
@@ -408,8 +407,7 @@ items:
     '
   syntax:
     content: stream_infos()
-    parameters:
-    - id: self
+    parameters: []
     return:
       description: 'A list of instances of @cntk.io.StreamInformation
 

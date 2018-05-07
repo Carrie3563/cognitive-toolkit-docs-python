@@ -58,8 +58,7 @@ items:
     '
   syntax:
     content: get_checkpoint_state()
-    parameters:
-    - id: self
+    parameters: []
     return:
       description: 'dictionary, that can be later used on @cntk.io.UserMinibatchSource.restore_from_checkpoint.
 
@@ -86,8 +85,7 @@ items:
     '
   syntax:
     content: is_infinite()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.io.UserMinibatchSource.is_infinite
 - class: cntk.io.UserMinibatchSource
@@ -197,7 +195,6 @@ items:
   syntax:
     content: stream_info(name)
     parameters:
-    - id: self
     - id: name
   type: method
   uid: cntk.io.UserMinibatchSource.stream_info
@@ -220,8 +217,7 @@ items:
     '
   syntax:
     content: stream_infos()
-    parameters:
-    - id: self
+    parameters: []
     return:
       description: 'list of @cntk.io.StreamInformation instances
 

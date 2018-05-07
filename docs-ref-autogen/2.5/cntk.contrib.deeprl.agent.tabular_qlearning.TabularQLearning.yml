@@ -61,7 +61,6 @@ items:
   syntax:
     content: end(reward, next_state)
     parameters:
-    - id: self
     - id: reward
     - id: next_state
   type: method
@@ -85,8 +84,7 @@ items:
     '
   syntax:
     content: enter_evaluation()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.contrib.deeprl.agent.tabular_qlearning.TabularQLearning.enter_evaluation
 - class: cntk.contrib.deeprl.agent.tabular_qlearning.TabularQLearning
@@ -109,7 +107,6 @@ items:
   syntax:
     content: save(filename)
     parameters:
-    - id: self
     - id: filename
   type: method
   uid: cntk.contrib.deeprl.agent.tabular_qlearning.TabularQLearning.save
@@ -133,7 +130,6 @@ items:
   syntax:
     content: save_parameter_settings(filename)
     parameters:
-    - id: self
     - id: filename
   type: method
   uid: cntk.contrib.deeprl.agent.tabular_qlearning.TabularQLearning.save_parameter_settings
@@ -156,8 +152,7 @@ items:
     '
   syntax:
     content: set_as_best_model()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.contrib.deeprl.agent.tabular_qlearning.TabularQLearning.set_as_best_model
 - class: cntk.contrib.deeprl.agent.tabular_qlearning.TabularQLearning
@@ -180,7 +175,6 @@ items:
   syntax:
     content: start(state)
     parameters:
-    - id: self
     - id: state
   type: method
   uid: cntk.contrib.deeprl.agent.tabular_qlearning.TabularQLearning.start
@@ -204,7 +198,6 @@ items:
   syntax:
     content: step(reward, next_state)
     parameters:
-    - id: self
     - id: reward
     - id: next_state
   type: method

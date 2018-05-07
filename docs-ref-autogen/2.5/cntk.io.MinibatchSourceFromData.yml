@@ -150,8 +150,7 @@ items:
     '
   syntax:
     content: get_checkpoint_state()
-    parameters:
-    - id: self
+    parameters: []
     return:
       description: 'A @cntk.cntk_py.Dictionary that has the checkpoint state
 
@@ -179,7 +178,6 @@ items:
   syntax:
     content: next_minibatch(num_samples, number_of_workers=1, worker_rank=0, device=None)
     parameters:
-    - id: self
     - id: num_samples
     - defaultValue: '1'
       id: number_of_workers
@@ -233,8 +231,7 @@ items:
     startLine: 679
   syntax:
     content: stream_infos()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.io.MinibatchSourceFromData.stream_infos
 references:

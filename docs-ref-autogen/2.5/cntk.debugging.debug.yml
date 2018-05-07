@@ -82,7 +82,7 @@ items:
       id: model
       type:
       - root node
-    - defaultValue: <_io.TextIOWrapper name='<stdin>' mode='r' encoding='cp437'>
+    - defaultValue: <_io.TextIOWrapper name='<stdin>' mode='r' encoding='cp1252'>
       description: '*readline()*
 
         will be called on it to obtain user input

@@ -87,8 +87,7 @@ items:
     '
   syntax:
     content: print_node_timing()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.eval.evaluator.Evaluator.print_node_timing
 - class: cntk.eval.evaluator.Evaluator
@@ -113,8 +112,7 @@ items:
     '
   syntax:
     content: summarize_test_progress()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.eval.evaluator.Evaluator.summarize_test_progress
 - class: cntk.eval.evaluator.Evaluator
@@ -137,7 +135,6 @@ items:
   syntax:
     content: test_minibatch(arguments, device=None, distributed=False)
     parameters:
-    - id: self
     - id: arguments
     - defaultValue: None
       id: device

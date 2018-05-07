@@ -59,8 +59,7 @@ items:
     '
   syntax:
     content: barrier()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.train.distributed.Communicator.barrier
 - class: cntk.train.distributed.Communicator
@@ -132,8 +131,7 @@ items:
     '
   syntax:
     content: is_main()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.train.distributed.Communicator.is_main
 - class: cntk.train.distributed.Communicator

@@ -54,7 +54,6 @@ items:
   syntax:
     content: backward(state, root_gradients)
     parameters:
-    - id: self
     - id: state
     - id: root_gradients
   type: method
@@ -76,7 +75,6 @@ items:
   syntax:
     content: forward(argument, device=None, outputs_to_retain=None)
     parameters:
-    - id: self
     - id: argument
     - defaultValue: None
       id: device
@@ -100,8 +98,7 @@ items:
     startLine: 89
   syntax:
     content: infer_outputs()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.contrib.netopt.custom_convolution_ops.pySign.infer_outputs
 references:

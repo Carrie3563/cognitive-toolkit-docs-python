@@ -64,7 +64,6 @@ items:
   syntax:
     content: backward(state, root_gradients)
     parameters:
-    - id: self
     - id: state
     - id: root_gradients
   type: method
@@ -86,7 +85,6 @@ items:
   syntax:
     content: clone(cloned_inputs)
     parameters:
-    - id: self
     - id: cloned_inputs
   type: method
   uid: cntk.contrib.netopt.custom_convolution_ops.Multibit.clone
@@ -129,7 +127,6 @@ items:
   syntax:
     content: forward(argument, device, outputs_to_retain)
     parameters:
-    - id: self
     - id: argument
     - id: device
     - id: outputs_to_retain
@@ -152,7 +149,6 @@ items:
   syntax:
     content: gradFunc(arg)
     parameters:
-    - id: self
     - id: arg
   type: method
   uid: cntk.contrib.netopt.custom_convolution_ops.Multibit.gradFunc
@@ -172,8 +168,7 @@ items:
     startLine: 254
   syntax:
     content: infer_outputs()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.contrib.netopt.custom_convolution_ops.Multibit.infer_outputs
 - class: cntk.contrib.netopt.custom_convolution_ops.Multibit
@@ -193,7 +188,6 @@ items:
   syntax:
     content: multiFunc(arg1)
     parameters:
-    - id: self
     - id: arg1
   type: method
   uid: cntk.contrib.netopt.custom_convolution_ops.Multibit.multiFunc
@@ -213,8 +207,7 @@ items:
     startLine: 262
   syntax:
     content: serialize()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.contrib.netopt.custom_convolution_ops.Multibit.serialize
 references:

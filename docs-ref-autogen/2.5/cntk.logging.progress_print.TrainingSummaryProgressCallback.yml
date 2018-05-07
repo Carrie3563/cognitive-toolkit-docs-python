@@ -73,7 +73,6 @@ items:
     content: on_write_test_summary(samples, updates, summaries, aggregate_metric,
       elapsed_milliseconds)
     parameters:
-    - id: self
     - id: samples
     - id: updates
     - id: summaries
@@ -97,8 +96,7 @@ items:
     startLine: 553
   syntax:
     content: on_write_test_update(*args, **kwargs)
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.logging.progress_print.TrainingSummaryProgressCallback.on_write_test_update
 - class: cntk.logging.progress_print.TrainingSummaryProgressCallback
@@ -119,7 +117,6 @@ items:
     content: on_write_training_summary(samples, updates, summaries, aggregate_loss,
       aggregate_metric, elapsed_milliseconds)
     parameters:
-    - id: self
     - id: samples
     - id: updates
     - id: summaries
@@ -145,7 +142,6 @@ items:
   syntax:
     content: on_write_training_update(samples, updates, aggregate_loss, aggregate_metric)
     parameters:
-    - id: self
     - id: samples
     - id: updates
     - id: aggregate_loss
@@ -168,8 +164,7 @@ items:
     startLine: 560
   syntax:
     content: write(*args, **kwargs)
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.logging.progress_print.TrainingSummaryProgressCallback.write
 references:

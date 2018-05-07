@@ -50,8 +50,7 @@ items:
     '
   syntax:
     content: id()
-    parameters:
-    - id: self
+    parameters: []
     return:
       description: 'id
 
@@ -81,8 +80,7 @@ items:
     '
   syntax:
     content: is_locked()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.device.DeviceDescriptor.is_locked
 - class: cntk.device.DeviceDescriptor
@@ -104,8 +102,7 @@ items:
     '
   syntax:
     content: type()
-    parameters:
-    - id: self
+    parameters: []
     return:
       description: 'type
 

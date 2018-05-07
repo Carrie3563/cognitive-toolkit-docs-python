@@ -90,8 +90,7 @@ items:
     '
   syntax:
     content: num_chunks()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.io.UserDeserializer.num_chunks
 - class: cntk.io.UserDeserializer
@@ -116,8 +115,7 @@ items:
     '
   syntax:
     content: stream_infos()
-    parameters:
-    - id: self
+    parameters: []
     return:
       description: 'list of @cntk.io.StreamInformation exposed by the deserializer
 

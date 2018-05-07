@@ -99,8 +99,7 @@ items:
     '
   syntax:
     content: close()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.logging.progress_print.TensorBoardProgressWriter.close
 - class: cntk.logging.progress_print.TensorBoardProgressWriter
@@ -122,8 +121,7 @@ items:
     '
   syntax:
     content: flush()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.logging.progress_print.TensorBoardProgressWriter.flush
 - class: cntk.logging.progress_print.TensorBoardProgressWriter
@@ -144,7 +142,6 @@ items:
     content: on_write_test_summary(samples, updates, summaries, aggregate_metric,
       elapsed_milliseconds)
     parameters:
-    - id: self
     - id: samples
     - id: updates
     - id: summaries
@@ -169,7 +166,6 @@ items:
   syntax:
     content: on_write_test_update(samples, updates, aggregate_metric)
     parameters:
-    - id: self
     - id: samples
     - id: updates
     - id: aggregate_metric
@@ -193,7 +189,6 @@ items:
     content: on_write_training_summary(samples, updates, summaries, aggregate_loss,
       aggregate_metric, elapsed_milliseconds)
     parameters:
-    - id: self
     - id: samples
     - id: updates
     - id: summaries
@@ -219,7 +214,6 @@ items:
   syntax:
     content: on_write_training_update(samples, updates, aggregate_loss, aggregate_metric)
     parameters:
-    - id: self
     - id: samples
     - id: updates
     - id: aggregate_loss
@@ -243,7 +237,6 @@ items:
   syntax:
     content: write_image(name, data, step)
     parameters:
-    - id: self
     - id: name
     - id: data
     - id: step

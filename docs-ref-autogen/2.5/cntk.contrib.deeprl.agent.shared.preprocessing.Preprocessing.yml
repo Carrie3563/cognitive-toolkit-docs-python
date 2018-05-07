@@ -53,8 +53,7 @@ items:
     '
   syntax:
     content: output_shape()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.contrib.deeprl.agent.shared.preprocessing.Preprocessing.output_shape
 - class: cntk.contrib.deeprl.agent.shared.preprocessing.Preprocessing
@@ -77,7 +76,6 @@ items:
   syntax:
     content: preprocess(observation)
     parameters:
-    - id: self
     - id: observation
   type: method
   uid: cntk.contrib.deeprl.agent.shared.preprocessing.Preprocessing.preprocess
@@ -100,8 +98,7 @@ items:
     '
   syntax:
     content: reset()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.contrib.deeprl.agent.shared.preprocessing.Preprocessing.reset
 references:

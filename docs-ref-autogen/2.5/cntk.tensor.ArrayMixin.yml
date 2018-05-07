@@ -41,8 +41,7 @@ items:
     '
   syntax:
     content: asarray()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.tensor.ArrayMixin.asarray
 references:

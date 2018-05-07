@@ -269,8 +269,7 @@ items:
     '
   syntax:
     content: next_pass()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.contrib.crosstalk.Crosstalk.next_pass
 - class: cntk.contrib.crosstalk.Crosstalk
@@ -329,8 +328,7 @@ items:
     '
   syntax:
     content: reset()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.contrib.crosstalk.Crosstalk.reset
 - class: cntk.contrib.crosstalk.Crosstalk
@@ -378,8 +376,7 @@ items:
     '
   syntax:
     content: save_all()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.contrib.crosstalk.Crosstalk.save_all
 - class: cntk.contrib.crosstalk.Crosstalk

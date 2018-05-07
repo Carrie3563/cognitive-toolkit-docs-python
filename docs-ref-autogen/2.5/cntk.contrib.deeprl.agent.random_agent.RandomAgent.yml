@@ -59,7 +59,6 @@ items:
   syntax:
     content: end(reward, next_state)
     parameters:
-    - id: self
     - id: reward
     - id: next_state
   type: method
@@ -84,7 +83,6 @@ items:
   syntax:
     content: save(filename)
     parameters:
-    - id: self
     - id: filename
   type: method
   uid: cntk.contrib.deeprl.agent.random_agent.RandomAgent.save
@@ -108,7 +106,6 @@ items:
   syntax:
     content: save_parameter_settings(filename)
     parameters:
-    - id: self
     - id: filename
   type: method
   uid: cntk.contrib.deeprl.agent.random_agent.RandomAgent.save_parameter_settings
@@ -131,8 +128,7 @@ items:
     '
   syntax:
     content: set_as_best_model()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.contrib.deeprl.agent.random_agent.RandomAgent.set_as_best_model
 - class: cntk.contrib.deeprl.agent.random_agent.RandomAgent
@@ -155,7 +151,6 @@ items:
   syntax:
     content: start(state)
     parameters:
-    - id: self
     - id: state
   type: method
   uid: cntk.contrib.deeprl.agent.random_agent.RandomAgent.start
@@ -179,7 +174,6 @@ items:
   syntax:
     content: step(reward, next_state)
     parameters:
-    - id: self
     - id: reward
     - id: next_state
   type: method

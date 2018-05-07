@@ -59,8 +59,7 @@ items:
     '
   syntax:
     content: output_shape()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.contrib.deeprl.agent.shared.preprocessing.AtariPreprocessing.output_shape
 - class: cntk.contrib.deeprl.agent.shared.preprocessing.AtariPreprocessing
@@ -83,7 +82,6 @@ items:
   syntax:
     content: preprocess(image)
     parameters:
-    - id: self
     - id: image
   type: method
   uid: cntk.contrib.deeprl.agent.shared.preprocessing.AtariPreprocessing.preprocess
@@ -106,8 +104,7 @@ items:
     '
   syntax:
     content: reset()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.contrib.deeprl.agent.shared.preprocessing.AtariPreprocessing.reset
 references:

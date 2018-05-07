@@ -60,7 +60,6 @@ items:
   syntax:
     content: sample_minibatch(batch_size)
     parameters:
-    - id: self
     - id: batch_size
   type: method
   uid: cntk.contrib.deeprl.agent.shared.replay_memory.ReplayMemory.sample_minibatch
@@ -83,8 +82,7 @@ items:
     '
   syntax:
     content: size()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.contrib.deeprl.agent.shared.replay_memory.ReplayMemory.size
 - class: cntk.contrib.deeprl.agent.shared.replay_memory.ReplayMemory
@@ -109,8 +107,7 @@ items:
     '
   syntax:
     content: store(*args)
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.contrib.deeprl.agent.shared.replay_memory.ReplayMemory.store
 - class: cntk.contrib.deeprl.agent.shared.replay_memory.ReplayMemory

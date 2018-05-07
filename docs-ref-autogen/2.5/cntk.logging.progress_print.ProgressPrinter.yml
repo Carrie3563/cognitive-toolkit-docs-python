@@ -186,8 +186,7 @@ items:
     '
   syntax:
     content: avg_loss_since_last()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.logging.progress_print.ProgressPrinter.avg_loss_since_last
 - class: cntk.logging.progress_print.ProgressPrinter
@@ -212,8 +211,7 @@ items:
     '
   syntax:
     content: avg_loss_since_start()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.logging.progress_print.ProgressPrinter.avg_loss_since_start
 - class: cntk.logging.progress_print.ProgressPrinter
@@ -238,8 +236,7 @@ items:
     '
   syntax:
     content: avg_metric_since_last()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.logging.progress_print.ProgressPrinter.avg_metric_since_last
 - class: cntk.logging.progress_print.ProgressPrinter
@@ -264,8 +261,7 @@ items:
     '
   syntax:
     content: avg_metric_since_start()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.logging.progress_print.ProgressPrinter.avg_metric_since_start
 - class: cntk.logging.progress_print.ProgressPrinter
@@ -376,8 +372,7 @@ items:
     startLine: 339
   syntax:
     content: on_training_update_end()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.logging.progress_print.ProgressPrinter.on_training_update_end
 - class: cntk.logging.progress_print.ProgressPrinter
@@ -397,7 +392,6 @@ items:
   syntax:
     content: on_write_distributed_sync_update(samples, updates, aggregate_metric)
     parameters:
-    - id: self
     - id: samples
     - id: updates
     - id: aggregate_metric
@@ -421,7 +415,6 @@ items:
     content: on_write_test_summary(samples, updates, summaries, aggregate_metric,
       elapsed_milliseconds)
     parameters:
-    - id: self
     - id: samples
     - id: updates
     - id: summaries
@@ -446,7 +439,6 @@ items:
   syntax:
     content: on_write_test_update(samples, updates, aggregate_metric)
     parameters:
-    - id: self
     - id: samples
     - id: updates
     - id: aggregate_metric
@@ -470,7 +462,6 @@ items:
     content: on_write_training_summary(samples, updates, summaries, aggregate_loss,
       aggregate_metric, elapsed_milliseconds)
     parameters:
-    - id: self
     - id: samples
     - id: updates
     - id: summaries
@@ -496,7 +487,6 @@ items:
   syntax:
     content: on_write_training_update(samples, updates, aggregate_loss, aggregate_metric)
     parameters:
-    - id: self
     - id: samples
     - id: updates
     - id: aggregate_loss
@@ -529,8 +519,7 @@ items:
     '
   syntax:
     content: reset_last()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.logging.progress_print.ProgressPrinter.reset_last
 - class: cntk.logging.progress_print.ProgressPrinter
@@ -559,8 +548,7 @@ items:
     '
   syntax:
     content: reset_start()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.logging.progress_print.ProgressPrinter.reset_start
 - class: cntk.logging.progress_print.ProgressPrinter
@@ -668,7 +656,6 @@ items:
   syntax:
     content: write(key, value)
     parameters:
-    - id: self
     - id: key
     - id: value
   type: method

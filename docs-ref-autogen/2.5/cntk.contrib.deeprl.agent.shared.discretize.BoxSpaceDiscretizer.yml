@@ -47,7 +47,6 @@ items:
   syntax:
     content: discretize(value)
     parameters:
-    - id: self
     - id: value
   type: method
   uid: cntk.contrib.deeprl.agent.shared.discretize.BoxSpaceDiscretizer.discretize

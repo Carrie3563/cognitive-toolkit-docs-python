@@ -67,7 +67,6 @@ items:
   syntax:
     content: as_sequences(variable=None)
     parameters:
-    - id: self
     - defaultValue: None
       id: variable
     return:

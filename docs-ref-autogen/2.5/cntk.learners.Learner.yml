@@ -58,8 +58,7 @@ items:
     '
   syntax:
     content: learning_rate()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.learners.Learner.learning_rate
 - class: cntk.learners.Learner

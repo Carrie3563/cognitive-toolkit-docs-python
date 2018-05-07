@@ -186,8 +186,7 @@ items:
     '
   syntax:
     content: infer_outputs()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.ops.functions.UserFunction.infer_outputs
 - class: cntk.ops.functions.UserFunction
@@ -236,8 +235,7 @@ items:
     '
   syntax:
     content: serialize()
-    parameters:
-    - id: self
+    parameters: []
   type: method
   uid: cntk.ops.functions.UserFunction.serialize
 references:
